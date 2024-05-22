@@ -1,65 +1,9 @@
 body {
-    background-color: var(--bg-color); /* Alterado para variável CSS */
-    color: var(--text-color); /* Alterado para variável CSS */
+    background-color: #333333;
     text-align: right;
     font-family:Arial, Helvetica, sans-serif;
+    color: white;
 }
-
-.theme {
-    --bg-color: #111;
-    --main-color: #fefefe;
-    position: relative;
-    top: 20px; /* Ajuste conforme necessário */
-    right: -1780px; /* Ajuste conforme necessário */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: var(--bg-color);
-    border-radius: 100%;
-    border: 2px solid var(--main-color);
-    box-shadow: 4px 4px var(--main-color);
-  }
-  
-  .input {
-    cursor: pointer;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    opacity: 0; 
-  }
-  
-  .icon {
-    position: absolute;
-    top: calc(50% -13px);
-    left: calc(50% -13px);
-    width: 26px;
-    height: 26px;
-  }
-  
-  .icon.icon-moon {
-    fill: var(--main-color);
-  }
-  
-  .icon.icon-sun {
-    stroke: var(--main-color);
-    display: none;
-  }
-  
-  .input:checked ~ .icon.icon-sun {
-    display: block;
-  }
-  
-  .input:checked ~ .icon.icon-moon {
-    display: none;
-  }
-  
-.theme:active {
-    box-shadow: 0px 0px var(--main-color);
-    transform: translate(3px, 3px);
-  }
 .cav {
     position: absolute;
     margin-top: 7%;
