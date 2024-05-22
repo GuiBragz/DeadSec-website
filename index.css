@@ -1,0 +1,34 @@
+body {
+    background-color: #333333;
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cav {
+    position: absolute;
+    margin-top: 7%;
+    left: 0px;
+    width: 600px; /* Ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+    z-index: -1; /* Para colocar atrás do conteúdo */
+}
+
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+@media screen and (max-width: 768px) { /*+editar*/
+    .cav {
+        max-width: 95%; /* Reduz a largura máxima */
+    }
+
+    h1 {
+        font-size: 7vw; /* Tamanho relativo ao viewport width */
+    }
+
+    h2 {
+        font-size: 6vw; /* Tamanho relativo ao viewport width */
+    }
+}
