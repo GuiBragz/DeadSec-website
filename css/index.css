@@ -12,7 +12,19 @@ body {
     height: auto; /* Ajuste conforme necessário */
     z-index: -1; /* Para colocar atrás do conteúdo */
 }
-
+iframe {
+    width:100%; 
+    height:110px;
+    border:0;
+}
+/* Novo estilo para txthome1 */
+.txthome1 {
+    
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    padding-right: 2%; /* Espaçamento da direita */
+    max-width: 60%; /* Limita a largura a 50% da tela */
+    margin-left: auto; /* Garante que o conteúdo não ultrapasse a metade da tela */
+}
 h1 {
     font-size: 50px;
 }
@@ -20,15 +32,34 @@ h2{
     font-size: 40px;
 }
 @media screen and (max-width: 768px) { /*+editar*/
+    body {
+        background-color: #333333;
+        text-align: right;
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .txthome1 {
+    
+        justify-content: unsafe; /* Alinha o conteúdo à direita */
+        padding-right: 0%; /* Espaçamento da direita */
+        max-width: 100%; /* Limita a largura a 50% da tela */
+        margin-left: 0px; /* Garante que o conteúdo não ultrapasse a metade da tela */
+    }
     .cav {
         max-width: 95%; /* Reduz a largura máxima */
+        z-index: -5;
+        margin-top: 90px;
+        opacity: 25%;
     }
-
     h1 {
-        font-size: 7vw; /* Tamanho relativo ao viewport width */
+        font-size: 20px;
     }
-
-    h2 {
-        font-size: 6vw; /* Tamanho relativo ao viewport width */
+    h2{
+        font-size: 15px;
     }
+iframe {
+    width:100%; 
+    height:80px;
+    border:0;
+}
 }
