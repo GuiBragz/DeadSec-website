@@ -46,7 +46,7 @@ body {
 .link {
     position: fixed;
     margin-top: 1.5vw;
-    margin-left: 33vw;
+    margin-left: 30vw;
     z-index: 3;
 }
 
@@ -84,23 +84,23 @@ html, body {
     }
 
     .img {
-        width: 120px;
-        padding-left: 65px;
+        width: 20vw;
+        padding-left: 40.5vw;
         margin-top: 0;
     }
 
     .link {
-        margin-top: 50px;
-        margin-left: 0;
+        margin-top: 9vw;
+        margin-left: 13vw;
     }
 
     .link a {
-        margin-left: 0;
-        font-size: 8px;
+        margin-left: 0.2vw;
+        font-size: 2.6vw;
     }
 
     .link a:hover {
-        border-bottom: 2px solid white;
+        border-bottom: 0.5vw solid white;
     }
 
     /* Active link styling */
