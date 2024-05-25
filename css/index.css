@@ -22,7 +22,7 @@ iframe {
     
     justify-content: flex-end; /* Alinha o conteúdo à direita */
     padding-right: 2%; /* Espaçamento da direita */
-    max-width: 60%; /* Limita a largura a 50% da tela */
+    max-width: 50%; /* Limita a largura a 50% da tela */
     margin-left: auto; /* Garante que o conteúdo não ultrapasse a metade da tela */
 }
 h1 {
