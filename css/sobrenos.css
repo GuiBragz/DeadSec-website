@@ -7,9 +7,27 @@ iframe {
     height:6vw;
     border:0;
 }
+
 h1 {
+    font-size: 50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+h2 {
     font-size: 25px;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: right;
+}
+
+
+.cav {
+    position: absolute;
+    margin-top: 1.5vw;
+    left: 0px;
+    width: 39vw; /* Ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+    z-index: -1; /* Para colocar atrás do conteúdo */
+    opacity: 0.2 ;
 }
