@@ -1,5 +1,6 @@
 body {
     background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     color: white;
@@ -7,6 +8,7 @@ p {
 }
 h1 {
     font-size: 1.9vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     font-size: 1.7vw;
@@ -19,7 +21,7 @@ pclini {
     font-family: Arial, Helvetica, sans-serif;
 }
 h2p {
-  font-size: 40px;
+  font-size: 1.7vw;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -33,4 +35,30 @@ iframe {
     width:97vw; 
     height:6vw;
     border:0;
+}
+.image-container{
+    margin-left: 35vw;
+}
+.img1 {
+    width: auto;
+    height: 20vw;
+    right: 20vw;
+    margin-top: -30vw;
+    z-index: -5;
+    
+}
+.img2 {
+    width: auto;
+    height: 20vw;
+    margin-top: -30vw;
+    right: 20vw;
+    z-index: -5;
+   
+}
+.img3 {
+    width: auto;
+    height: 20vw;
+    right: 20vw;
+    margin-top: -30vw;
+    z-index: -5;
 }
